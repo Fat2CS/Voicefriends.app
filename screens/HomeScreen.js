@@ -5,6 +5,7 @@ import { StatusBar } from "expo-status-bar";
 
 const HomeScreen = ({ navigation }) => {
   const [message, setMessage] = useState("");
+  const [response, estresponse] = useState("");
   return (
     <View>
       <Text style={styles.title}> Friend in my pocket</Text>
