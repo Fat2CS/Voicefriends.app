@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { StatusBar } from "expo-status-bar";
 // import SignInScreen from "./SigninScreen";
 
 const HomeScreen = ({ navigation }) => {
+  const [message, setMessage] = useState("");
   return (
     <View>
       <Text style={styles.title}> Friend in my pocket</Text>
