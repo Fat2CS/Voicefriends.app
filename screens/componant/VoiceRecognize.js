@@ -71,6 +71,7 @@ const VoiceRecognize = () => {
   const [result, setResult] = useState("");
   const [isLoading, setLoading] = useState(false);
   const [isReady, setIsReady] = useState(false);
+  const [test, setTest] = useState(false);
 
   useEffect(() => {
     Voice.onSpeechStart = onSpeechStartHandler;
