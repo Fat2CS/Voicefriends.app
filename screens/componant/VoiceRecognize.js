@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "react-native-gesture-handler";
-import * as Permissions from "expo-permissions";
+// import * as Permissions from "expo-permissions";
 import {
   View,
   Image,

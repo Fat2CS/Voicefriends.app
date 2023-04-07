@@ -113,7 +113,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.voicefriendapp"
+    namespace 'com.anonymous.SpeectToTextApp'
     defaultConfig {
         applicationId 'com.anonymous.SpeectToTextApp'
         minSdkVersion rootProject.ext.minSdkVersion
